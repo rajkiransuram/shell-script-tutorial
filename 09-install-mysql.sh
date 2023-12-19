@@ -2,7 +2,7 @@
 
 ID=$(id -u)
 
-if[$ID -ne 0]
+if[ $ID -ne 0 ]
 then
     echo "ERROR:: Plaase ru this scrpt with root user"
     exit 1 # you can give other than 0 
