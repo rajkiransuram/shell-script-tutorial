@@ -5,10 +5,10 @@ NUMBER2=$2
 
 SUM=$(($NUMBER1+$NUMBER2))
 
-echo "Total :: $SUM"
+echo "Total:: $SUM"
 
-echo "How many arguments passed :: $#"
+echo "How many args passed:: $#"
 
-echo "All arguments passed :: $@"
+echo "All args passed:: $@"
 
-echo "Shell script name :: $0"
+echo "Script name:: $0"
