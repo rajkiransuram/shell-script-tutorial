@@ -3,7 +3,7 @@
 ID=$(id -u)
 
 if[$ID -ne 0]
-then 
+then
     echo "ERROR:: Plaase ru this scrpt with root user"
     exit 1 # you can give other than 0 
  else
@@ -13,7 +13,7 @@ then
  yum install mysql -y
 
  if [$? -ne 0]
- then 
+ then
     echo "ERROR:: Installing MySQL is failed"
     exit 1
  else
